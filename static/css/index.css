@@ -1,0 +1,230 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.results-small {
+  overflow: hidden;
+  /* height: 400px; */
+  /* height: 100%; */
+}
+
+.results-small .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.pd-image {
+  margin-top: 20px;
+}
+
+.results-small .desc {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 14px;
+  padding: 3px 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 128;
+}
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.spacer {
+  height: 50px; /* Spacer block to add custom space between sections */
+}
+
+/* Description overlay inside the GIF at the bottom */
+.desc {
+  position: absolute;
+  bottom: 0; /* Positions the text at the bottom of the GIF */
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 100; /* Ensures text is on top of the GIF */
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+.mochi-container {  
+  display: flex;  
+  justify-content: space-around;  
+  flex-wrap: wrap;  
+}  
+
+.video-title {  
+  text-align: center;
+} 
+
+.description-container {  
+  margin: 20px 0;    
+  padding: 15px;      
+  background-color: #e9ecef; 
+  border-radius: 8px;
+} 
+
+.overview-description {  
+  color: #555;        
+  margin: 10px 0;      
+}
+
+.video-wrapper {  
+  max-width: 45%;  
+  background-color: #fff;  
+  border-radius: 8px;  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+  margin: 10px;  
+  padding: 10px;  
+}  
+
+video {  
+  width: 100%;  
+  height: auto;  
+  border-radius: 4px;  
+}  
+
