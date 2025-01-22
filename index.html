@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>W2S-DMD: Weak-to-Strong Distribution Matching Distillation for Efficient Large-Scale Portrait Video Synthesis</title>
+  <title><i>W2S</i>VD: Weak-to-Strong Distribution Matching Distillation for Efficient Large-Scale Portrait Video Synthesis</title>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -162,7 +162,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">W2S-DMD: Weak-to-Strong Distribution Matching Distillation for Efficient Large-Scale Portrait Video Synthesis</h1>
+            <h1 class="title is-1 publication-title"><i>W2S</i>VD: <a><i>Weak-to-Strong</i> Video Distillation</a> for Large-Scale Portrait Few-Step Synthesis</h1>
             <div class="is-size-4 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -177,7 +177,7 @@
 </section>
 
 <div class="section-title has-text-centered">
-  <h2 class="title is-4">Euler (left) vs. W2S-DMD (right)</h2>
+  <h2 class="title is-4">Euler (left) vs. <i>W2S</i>VD (right)</h2>
 </div>
 
 <!-- Hero Teaser -->
@@ -258,7 +258,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p style="font-size:18px;">
-            Recently, open-source video diffusion mdoels (VDMs) have been scaled to over 10 billion (10b+) parameters. Fine-tuning these large-scale VDMs for the portrait video synthesis task can result in significant improvements across multiple dimensions, such as visual quality and natural facial motion dynamics. Despite their advancements, how to achieve step distillation and reduce the substantial computational overhead of large-scale VDMs remains unexplored. To fill this gap, this paper proposes <i>Weak-to-Strong</i> Distribution Matching Distillation (<b><i>W2S</i>-DMD</b>) to mitigate both the issue of insufficient training memory and the problem of training collapse observed in vanilla DMD during the training process. Specifically, we first leverage LoRA to fine-tune the fake diffusion transformer (DiT) to address the out-of-memory issue. Then, we use <i>W2S</i> distribution matching to alleviate the conundrum where the video synthesized by the few-step generator deviates from the real data distribution, leading to inaccuracies in the KL divergence approximation. Additionally, we minimize the distance between the fake data distribution and the ground truth distribution to further enhance the visual quality of the synthesized videos. As experimentally demonstrated on HunyuanVideo, <i>W2S</i>-DMD surpasses the standard Euler, LCM and DMD in FID/FVD and VBench in 1/4-step portrait video synthesis. Moreover, our 4-step generator even outperforms the 28-step standard sampling in VBench.
+            Recently, open-source video diffusion mdoels (VDMs) have been scaled to over 10 billion (10b+) parameters. Fine-tuning these large-scale VDMs for the portrait video synthesis task can result in significant improvements across multiple dimensions, such as visual quality and natural facial motion dynamics. Despite their advancements, how to achieve step distillation and reduce the substantial computational overhead of large-scale VDMs remains unexplored. To fill this gap, this paper proposes <i>Weak-to-Strong</i> Video Distillation (<b><i>W2S</i>VD</b>) to mitigate both the issue of insufficient training memory and the problem of training collapse observed in vanilla DMD during the training process. Specifically, we first leverage LoRA to fine-tune the fake diffusion transformer (DiT) to address the out-of-memory issue. Then, we use <i>W2S</i> distribution matching to alleviate the conundrum where the video synthesized by the few-step generator deviates from the real data distribution, leading to inaccuracies in the KL divergence approximation. Additionally, we minimize the distance between the fake data distribution and the ground truth distribution to further enhance the visual quality of the synthesized videos. As experimentally demonstrated on HunyuanVideo, <i>W2S</i>VD surpasses the standard Euler, LCM and DMD in FID/FVD and VBench in 1/4-step portrait video synthesis. Moreover, our 4-step generator even outperforms the 28-step standard sampling in VBench.
           </p>
         </div>
       </div>
@@ -278,9 +278,9 @@
       </div>
          
       <p class="text-with-margin" style="font-size:18px;">1. We apply DMD to large-scale HunyuanVideo and address the out-of-memory issue by leveraging LoRA to fine-tune the fake diffusion transformer (DiT). </p>
-      <p class="text-with-margin" style="font-size:18px;">2. We propose <i>Weak-to-Strong</i> Distribution Matching Distillation (<b><i>W2S</i>-DMD</b>) to mitigate the problem of training collapse observed in vanilla DMD during the training process. </p>
+      <p class="text-with-margin" style="font-size:18px;">2. We propose <i>Weak-to-Strong</i> Distribution Matching Distillation (<b><i>W2S</i>VD</b>) to mitigate the problem of training collapse observed in vanilla DMD during the training process. </p>
       <p class="text-with-margin" style="font-size:18px;">3. We also introduce a KL divergence approximation between the fake data distribution and the ground truth distribution, which can effectively achieve a balance between visual quality and motion dynamics.</p>
-      <p class="text-with-margin" style="font-size:18px;">4. We validate our proposed approach using benchmark datasets alongside our own collected widescreen video dataset. We verified the superiority of <i>W2S</i>-DMD in FID, FVD and VBench metrics.</p>
+      <p class="text-with-margin" style="font-size:18px;">4. We validate our proposed approach using benchmark datasets alongside our own collected widescreen video dataset. We verified the superiority of <i>W2S</i>VD in FID, FVD and VBench metrics.</p>
     
     </div>
   </div>
@@ -539,7 +539,7 @@
       <div class="spacer"></div>
 
       <div class="section-title has-text-centered">
-        <h2 class="title is-4">W2S-DMD (4-step)</h2>
+        <h2 class="title is-4"><i>W2S</i>VD (4-step)</h2>
       </div>
 
       <div class="mochi-container"> 
@@ -759,7 +759,7 @@
       <div class="spacer"></div>
 
       <div class="section-title has-text-centered">
-        <h2 class="title is-4">W2S-DMD (1-step)</h2>
+        <h2 class="title is-4"><i>W2S</i>VD (1-step)</h2>
       </div>
 
       <div class="mochi-container"> 
@@ -826,7 +826,7 @@
           <img src="./static/images/visualization.jpg" width="100%" />
         </div>
            
-        <p class="text-with-margin" style="font-size:18px;">Visualization of W2S-DMD, vanilla DMD2, LCM, and the standard Euler sampling. In both 1-step and 4-step scenarios, <a>W2S-DMD</a> visibly outperforms other methods in terms of visual quality and facial motion dynamics.</p>
+        <p class="text-with-margin" style="font-size:18px;">Visualization of <i>W2S</i>VD, vanilla DMD2, LCM, and the standard Euler sampling. In both 1-step and 4-step scenarios, <i>W2S</i>VD visibly outperforms other methods in terms of visual quality and facial motion dynamics.</p>
       
       </div>
 
